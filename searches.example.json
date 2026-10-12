@@ -1,0 +1,18 @@
+{
+  "dataDir": "./data/state",
+  "searches": [
+    {
+      "id": "honda-s2000-moscow",
+      "source": "avito",
+      "url": "https://www.avito.ru/moskva/avtomobili/honda/s2000-ASgBAgICAkTgtg2ymCjitg2Oryg?s=104",
+      "enabled": true,
+      "intervalSeconds": 120,
+      "overlapPages": 2,
+      "sweepIntervalSeconds": 1800,
+      "maxPagesPerSweep": 30,
+      "requestTimeoutSeconds": 30,
+      "maxCycleSeconds": 90,
+      "maxDetailsPerCycle": 0
+    }
+  ]
+}

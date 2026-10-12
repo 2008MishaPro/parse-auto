@@ -1,0 +1,11 @@
+node_modules/
+data/
+data-*/
+avito-probe*.html
+*.tmp
+.tmp/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

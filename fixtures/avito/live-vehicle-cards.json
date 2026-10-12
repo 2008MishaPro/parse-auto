@@ -1,0 +1,110 @@
+[
+  {
+    "case": "other_vaz",
+    "capturedAt": "2026-10-11T18:12:06.581Z",
+    "externalId": "8543261595",
+    "url": "https://www.avito.ru/uryupinsk/avtomobili/vaz_lada_2114_samara_1.6_mt_2007_200_000_km_8543261595",
+    "expectedVehicle": {
+      "make": "ВАЗ (LADA)",
+      "model": "2114 Samara",
+      "year": 2007,
+      "mileageKm": 200000
+    },
+    "buyerItem": {
+      "item": {
+        "id": 8543261595,
+        "title": "ВАЗ (LADA) 2114 Samara 1.6 MT, 2007, 200 000 км",
+        "url": "/uryupinsk/avtomobili/vaz_lada_2114_samara_1.6_mt_2007_200_000_km_8543261595",
+        "categoryId": 9,
+        "price": 150000,
+        "formattedPrice": {
+          "isHasValue": true,
+          "value": 150000,
+          "currencySign": "₽",
+          "formatedString": "150 000&nbsp;₽"
+        }
+      },
+      "ga": [
+        null,
+        {
+          "brand": "ВАЗ (LADA)",
+          "model": "2114 Samara",
+          "year": "2007",
+          "mileage": "200 000 км"
+        }
+      ]
+    }
+  },
+  {
+    "case": "foreign",
+    "capturedAt": "2026-10-11T18:12:14.220Z",
+    "externalId": "8545010922",
+    "url": "https://www.avito.ru/volgograd/avtomobili/daewoo_nexia_1.5_mt_2001_300_000_km_8545010922",
+    "expectedVehicle": {
+      "make": "Daewoo",
+      "model": "Nexia",
+      "year": 2001,
+      "mileageKm": 300000
+    },
+    "buyerItem": {
+      "item": {
+        "id": 8545010922,
+        "title": "Daewoo Nexia 1.5 MT, 2001, 300 000 км",
+        "url": "/volgograd/avtomobili/daewoo_nexia_1.5_mt_2001_300_000_km_8545010922",
+        "categoryId": 9,
+        "price": 80000,
+        "formattedPrice": {
+          "isHasValue": true,
+          "value": 80000,
+          "currencySign": "₽",
+          "formatedString": "80 000&nbsp;₽"
+        }
+      },
+      "ga": [
+        null,
+        {
+          "brand": "Daewoo",
+          "model": "Nexia",
+          "year": "2001",
+          "mileage": "300 000 км"
+        }
+      ]
+    }
+  },
+  {
+    "case": "damaged",
+    "capturedAt": "2026-10-11T18:12:16.050Z",
+    "externalId": "8378691370",
+    "url": "https://www.avito.ru/volgograd/avtomobili/vaz_lada_priora_1.6_mt_2009_bityy_234_000_km_8378691370",
+    "expectedVehicle": {
+      "make": "ВАЗ (LADA)",
+      "model": "Priora",
+      "year": 2009,
+      "mileageKm": 234000
+    },
+    "buyerItem": {
+      "item": {
+        "id": 8378691370,
+        "title": "ВАЗ (LADA) Priora 1.6 MT, 2009, битый, 234 000 км",
+        "url": "/volgograd/avtomobili/vaz_lada_priora_1.6_mt_2009_bityy_234_000_km_8378691370",
+        "categoryId": 9,
+        "price": 150000,
+        "formattedPrice": {
+          "isHasValue": true,
+          "value": 150000,
+          "currencySign": "₽",
+          "formatedString": "150 000&nbsp;₽"
+        }
+      },
+      "ga": [
+        null,
+        {
+          "brand": "ВАЗ (LADA)",
+          "model": "Priora",
+          "year": "2009",
+          "mileage": "234 000 км"
+        }
+      ]
+    }
+  }
+]

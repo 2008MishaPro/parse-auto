@@ -1,0 +1,42 @@
+{
+  "dataDir": "./data/state",
+  "searches": [
+    {
+      "id": "volgograd-region-under-150k",
+      "source": "avito",
+      "url": "https://www.avito.ru/volgogradskaya_oblast/avtomobili/do-150000-rubley-ASgCAgECAUXGmgwWeyJmcm9tIjowLCJ0byI6MTUwMDAwfQ?localPriority=0&s=104",
+      "enabled": true,
+      "intervalSeconds": 300,
+      "overlapPages": 2,
+      "sweepIntervalSeconds": 1800,
+      "maxPagesPerSweep": 30,
+      "requestTimeoutSeconds": 45,
+      "maxCycleSeconds": 180,
+      "maxDetailsPerCycle": 2
+    },
+    {
+      "id": "honda-s2000-pilot",
+      "source": "avito",
+      "url": "https://www.avito.ru/moskva/avtomobili/honda/s2000-ASgBAgICAkTgtg2ymCjitg2Oryg?s=104",
+      "enabled": false,
+      "intervalSeconds": 120,
+      "overlapPages": 2,
+      "sweepIntervalSeconds": 1800,
+      "maxPagesPerSweep": 10,
+      "requestTimeoutSeconds": 45,
+      "maxCycleSeconds": 90
+    },
+    {
+      "id": "honda-civic-pilot",
+      "source": "avito",
+      "url": "https://www.avito.ru/moskva/avtomobili?q=Honda%20Civic&s=104",
+      "enabled": false,
+      "intervalSeconds": 120,
+      "overlapPages": 2,
+      "maxPagesPerSweep": 10,
+      "sweepIntervalSeconds": 1800,
+      "requestTimeoutSeconds": 45,
+      "maxCycleSeconds": 90
+    }
+  ]
+}
